@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+:root{
+    --negro900: hsl(207,19%,9%);
+    --blanco100: hsl(0,0%,100%);
+    --accent400: hsl(142,90%,61%);
+}
+/* GENERAL STYLE */
+main{
+    margin-top: 50px;
+}
+a{
+    color: inherit !important;
+}
+.container > .row{
+    margin-bottom: 3rem;
+}
+/* SECTIONS */
+/* Nav */
+.navbar-main .active{
+    text-decoration: underline wavy var(--accent400);
+    text-underline-offset: 9px;
+}
+
+.header-main{
+    min-height: 100vh;
+}
+
+.titulo{
+    font-family: 'Dancing Script', cursive;
+}
+.icons-social-network > a{
+    z-index: 100;
+    --size: 40px;
+    width: var(--size);
+    height: var(--size);
+    display: inline-flex;
+    transition: 0.5s filter;
+}
+.icons-social-network > a:hover{
+    filter:opacity(0.5);
+}
+.img-service{
+    width: 220px;
+    height: 180px;
+    padding:10px;
+}
+.card{
+    margin: 30px;
+
+}
